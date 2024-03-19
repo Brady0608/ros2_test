@@ -1,0 +1,42 @@
+[0.065s] Invoking command in '/home/kaku0608/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaku0608/ros2_t/install/turtle_py:/home/kaku0608/ros2_t/install/turtle:/home/kaku0608/ros2_t/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kaku0608/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaku0608/ros2_ws/install/my_robot_bringup
+[0.415s] -- The C compiler identification is GNU 11.4.0
+[0.493s] -- The CXX compiler identification is GNU 11.4.0
+[0.515s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.611s] -- Detecting CXX compiler ABI info
+[0.689s] -- Detecting CXX compiler ABI info - done
+[0.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.700s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.828s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.002s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.076s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.168s] -- Configuring done
+[1.170s] -- Generating done
+[1.171s] -- Build files have been written to: /home/kaku0608/ros2_ws/build/my_robot_bringup
+[1.175s] Invoked command in '/home/kaku0608/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaku0608/ros2_t/install/turtle_py:/home/kaku0608/ros2_t/install/turtle:/home/kaku0608/ros2_t/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kaku0608/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaku0608/ros2_ws/install/my_robot_bringup
+[1.177s] Invoking command in '/home/kaku0608/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaku0608/ros2_t/install/turtle_py:/home/kaku0608/ros2_t/install/turtle:/home/kaku0608/ros2_t/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kaku0608/ros2_ws/build/my_robot_bringup -- -j3 -l3
+[1.220s] Invoked command in '/home/kaku0608/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaku0608/ros2_t/install/turtle_py:/home/kaku0608/ros2_t/install/turtle:/home/kaku0608/ros2_t/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kaku0608/ros2_ws/build/my_robot_bringup -- -j3 -l3
+[1.245s] Invoking command in '/home/kaku0608/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaku0608/ros2_t/install/turtle_py:/home/kaku0608/ros2_t/install/turtle:/home/kaku0608/ros2_t/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kaku0608/ros2_ws/build/my_robot_bringup
+[1.253s] -- Install configuration: ""
+[1.254s] -- Execute custom install script
+[1.254s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[1.263s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[1.273s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[1.282s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[1.291s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[1.300s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[1.310s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[1.318s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[1.332s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[1.342s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[1.351s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[1.361s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[1.370s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[1.383s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[1.391s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[1.400s] -- Symlinking: /home/kaku0608/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.410s] Invoked command in '/home/kaku0608/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaku0608/ros2_t/install/turtle_py:/home/kaku0608/ros2_t/install/turtle:/home/kaku0608/ros2_t/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/kaku0608/ros2_ws/build/my_robot_bringup

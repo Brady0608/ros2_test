@@ -1,0 +1,23 @@
+<launch>
+    <let name="urdf_path" value="$(find-pkg-share my_robot_description)/urdf/my_robot.urdf.xacro"/>
+    <let name="rviz_config_path" value = "$(find-pkg-share my_robot_bringup)/rviz/urdf_config.rviz"/>
+
+    
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+        <param name="robot_description" value="$(command 'xacro $(var urdf_path)')"/>
+    </node>
+
+    <node pkg="gazebo_ros" exec="spawn_entity.py" args="-topic robot_description -entity my_robot"/>
+
+
+   <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
+        <arg name="world" value="$(find-pkg-share my_robot_bringup)/worlds/first_world.world"/>
+    </include>
+
+
+    <node pkg="rviz2" exec="rviz2" output="screen" args="-d $(var rviz_config_path)"/>
+
+    <!-- <node pkg="timed_roslaunch" exec="timed_roslaunch" args="5 roscpp_tutorials my_listener.launch" name="timed_roslaunch" output="screen" /> -->
+    <!-- <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop" output="screen"/> -->
+    <node pkg="teleop_twist_keyboard" exec="teleop_twist_keyboard" name="teleop_robot" output="screen"/>
+</launch>
